@@ -26,7 +26,7 @@ As you can see, we have a hidden **breakout.ch8** file.
 
 Note that a **CH8 file** is commonly associated with **CHIP-8**, a simple interpreted programming language used for running retro games and applications. These files typically contain **CHIP-8 bytecode** that can be executed using a **CHIP-8 emulator**.
 
-What I do next is extract the hidden **breakout.ch8** file using Steghide, so I type: `steghide extract -sf breakout.jpg` 
+What I do next is extract the hidden **breakout.ch8** file, so I type: `steghide extract -sf breakout.jpg` 
 
 ![](https://i.imgur.com/Kkiner8.png)
 
@@ -46,7 +46,7 @@ So let's play !
 
 After finsihing the game, you get the flag:
 
-![](https://i.imgur.com/uwp58Gz.png)
+![](https://i.imgur.com/d0vFIZL.gif)
 
 **WCTF{GAME_OVER_VMASBKLTNUFMGS}**
 
